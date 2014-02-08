@@ -1,0 +1,31 @@
+make_csv=function()
+{
+  i=0
+  file=readLines("millionSongSubsetJSON.json")
+  top=fromJSON(file[1],nullValue=NA)
+  list1=top$metadata$song
+  data=data.frame(list1)
+  while(i!=20)
+  {
+    out=tryCatch(
+      {
+        for(i in 2:20)
+        {
+          temp=fromJSON(file[i],nullValue=NA)
+          list=temp$metadata$song
+          nw_data=data.frame(list)
+          data=rbind(data,nw_data[1,])
+        }
+      },
+      error=function(cond)
+      {
+        i=i+1 
+      },
+      warning=function(cond)
+      {},
+      finally={}
+    )
+    if(i==20)
+      return(data)
+  }
+}
