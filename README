@@ -1,5 +1,23 @@
 Million Song Dataset
+
+Introduction
+
+This is a big data project which have been done by utilising the Million song dataset from the following link.
+
+Aim
+
+The objective of the project was song recommendation and year prediction by using metdata of the songs from the dataset
+The project involves following parts
+
+1) Bringing Data into proper format
+2) Data Cleansing
+3) Year Prediction
+4) Song Recommendation
+5) Running the algorithm on Hadoop using Big Data Service Qubole
+
+
 Teammates
+
 Avik
 Taranveer
 Sahil

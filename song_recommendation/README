@@ -1,0 +1,29 @@
+Song Recommendation
+
+Aim
+
+To recommend similar songs given a particular song
+
+Working
+
+It invloves two parts
+
+1) Cluster formation -> make_cluster.R
+2) find function to find similar songs -> find.R
+
+
+
+1) Cluster formation
+
+We use Kmeans clustering algorithm to group similar songs. The clustering algorithms use the metadata to group similar songs.
+Appropriate no of clusters are decided to get minimum distance between songs.
+We get cluster Id for each song. Same songs have same cluster Id.
+
+2) find function
+
+It takes a song as an input and gives similar songs based on same cluster ID
+
+
+
+
+ 
