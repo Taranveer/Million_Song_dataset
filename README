@@ -18,12 +18,13 @@ The project involves following parts
 Note-
 1)In Data cleansing NA's and NAN's were removed and the values in column whose data was missing it was replaced by mean of the column like in  song.hotttness column some values were zero
 2) you can have a look at song_dataset.csv to look at the metadata of the songs which was used for the project
+
 Teammates
 
-Avik
-Taranveer
-Sahil
-Raj
+Avik Basu
+Taranveer Singh
+Sahil Govel
+Raj Biswas
 Akash Lodha
 Shikhar Sharma
 Sresht Agrawal
