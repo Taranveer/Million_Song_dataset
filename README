@@ -14,6 +14,7 @@ The project involves following parts
 3) Year Prediction -> code in years_predict folder
 4) Song Recommendation-> code in song_recommendation folder
 5) Running the algorithm on Hadoop using Big Data Service Qubole
+6) Data Visualisation -> visualisation folder
 
 Note-
 1)In Data cleansing NA's and NAN's were removed and the values in column whose data was missing it was replaced by mean of the column like in  song.hotttness column some values were zero
