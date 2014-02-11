@@ -9,13 +9,15 @@ Aim
 The objective of the project was song recommendation and year prediction by using metdata of the songs from the dataset
 The project involves following parts
 
-1) Bringing Data into proper format
+1) Bringing Data into proper format->make_csv.R
 2) Data Cleansing
-3) Year Prediction
-4) Song Recommendation
+3) Year Prediction -> code in years_predict folder
+4) Song Recommendation-> code in song_recommendation folder
 5) Running the algorithm on Hadoop using Big Data Service Qubole
 
-
+Note-
+1)In Data cleansing NA's and NAN's were removed and the values in column whose data was missing it was replaced by mean of the column like in  song.hotttness column some values were zero
+2) you can have a look at song_dataset.csv to look at the metadata of the songs which was used for the project
 Teammates
 
 Avik
